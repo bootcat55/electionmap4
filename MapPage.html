@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8" />
+		<title>My Webpage</title>
+		<link rel="stylesheet" href="./MapPageCSS.css">
+		<script src="./node_modules/d3/dist/d3.js" type="module"></script>
+		<script src="./Usa_counties_large.js" defer></script>
+		<script src="./InteractiveMap.js" defer></script>
+	</head>
+	<body>
+		<div id="svg-map">
+			<div id="svg-container">
+				<canvas id="myCanvas"></canvas>
+			</div>
+		</div>
+		<div id="slider-container" class="hide-slider">
+			<input  type="range" min="0" max="100" value="50">
+		</div>
+		<h1>Welcome to My Webpage</h1>
+		<p>This is the body of my webpage.</p>
+	</body>
+</html>

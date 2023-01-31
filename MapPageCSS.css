@@ -1,0 +1,12 @@
+#svg-map {
+    position: relative;
+ }
+#slider-container input[type="range"] {
+    position: absolute;
+    width: 300px;
+    bottom: 20px;
+    right: 20px;
+ }
+.hide-slider{
+    display:none;
+ }

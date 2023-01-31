@@ -1,0 +1,24 @@
+{
+  "name": "test",
+  "version": "1.0.0",
+  "description": "none",
+  "main": "insertentrypointname",
+  "scripts": {
+    "test": "inserttestcommand"
+  },
+  "repository": {
+    "type": "git",
+    "url": "noneyet"
+  },
+  "keywords": [
+    "none"
+  ],
+  "author": "me",
+  "license": "UNLICENSED",
+  "dependencies": {
+    "d3": "^7.8.1"
+  },
+  "devDependencies": {
+    "eslint": "^8.31.0"
+  }
+}
